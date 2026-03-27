@@ -1,9 +1,10 @@
 import React from "react";
 import HeroSection from "../component/HeroSection";
 import Layout from "../Layout/Layout";
-import aboutUsImage1 from "../assets/image-3.jpeg"
-import aboutUsImage2 from "../assets/about-us-image-2.jpg"
-import winnerIcon from "../assets/medal.png"
+import aboutUsImage1 from "../assets/image-3.jpeg";
+import aboutUsImage2 from "../assets/about-us-image-2.jpg";
+import bgImg from "../assets/bgImg.png";
+import winnerIcon from "../assets/medal.png";
 import { CgGym } from "react-icons/cg";
 import { MdOutlineWorkspacePremium } from "react-icons/md";
 import { LuMoveUpRight } from "react-icons/lu";
@@ -20,10 +21,18 @@ const Home = () => {
         <section className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-10">
           <section className="leftContainer mt-3 flex w-full lg:w-1/2 gap-3 sm:gap-5 items-end lg:items-start">
             <div className="bg-gray-400 w-2/3 sm:w-[60%] lg:w-95 h-70 sm:h-105 lg:h-130 rounded-2xl overflow-hidden">
-              <img className="w-full h-full object-cover" src={aboutUsImage1} alt="About Us" />
+              <img
+                className="w-full h-full object-cover"
+                src={aboutUsImage1}
+                alt="About Us"
+              />
             </div>
             <div className="bg-gray-400 w-1/2 sm:w-[55%] lg:w-85 h-60 sm:h-95 lg:h-120 mt-16 sm:mt-24 lg:mt-40 -ml-12 sm:-ml-16 lg:-ml-40 border-4 sm:border-8 border-black rounded-2xl overflow-hidden">
-              <img className="w-full h-full object-cover" src={aboutUsImage2} alt="About Us" />
+              <img
+                className="w-full h-full object-cover"
+                src={aboutUsImage2}
+                alt="About Us"
+              />
             </div>
           </section>
           <section className="rightContainer w-full lg:w-1/2">
@@ -41,7 +50,9 @@ const Home = () => {
                   <CgGym className="text-2xl sm:text-3xl text-gray-700" />
                 </div>
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Modern Facilities </h3>
+                  <h3 className="text-xl sm:text-2xl font-bold">
+                    Modern Facilities{" "}
+                  </h3>
                   <p className="text-sm sm:text-base leading-relaxed">
                     We offer a clean, well equipped training space with modern
                     equipment.
@@ -53,7 +64,9 @@ const Home = () => {
                   <MdOutlineWorkspacePremium className="text-2xl sm:text-3xl text-gray-700" />
                 </div>
                 <div>
-                  <h3 className="text-xl sm:text-2xl font-bold">Expert Trainers</h3>
+                  <h3 className="text-xl sm:text-2xl font-bold">
+                    Expert Trainers
+                  </h3>
                   <p className="text-sm sm:text-base leading-relaxed">
                     Our certified trainers are dedicated to helping you achieve
                     your fitness goals.
@@ -68,21 +81,38 @@ const Home = () => {
                 <li>Premium equipment in a clean space</li>
               </ul>
               <div className="w-full sm:w-auto flex justify-center">
-                <img src={winnerIcon} alt="Winner" className="w-20 h-20 sm:w-24 sm:h-24 mx-auto" />
+                <img
+                  src={winnerIcon}
+                  alt="Winner"
+                  className="w-20 h-20 sm:w-24 sm:h-24 mx-auto"
+                />
               </div>
             </div>
             <div>
-              <button className="mt-5 flex gap-2 items-center">Contact Us <MdOutlineCallMissedOutgoing className="text-white"/> </button>
+              <button className="mt-5 flex gap-2 items-center">
+                Contact Us{" "}
+                <MdOutlineCallMissedOutgoing className="text-white" />{" "}
+              </button>
             </div>
           </section>
         </section>
       </Layout>
-    {/*=========== Program & Training ======================= */}
-    <ProgramAndTraining/>
+      {/*=========== Program & Training ======================= */}
+      <ProgramAndTraining />
 
-    <section className="bg-gray-300 w-full h-100 mt-20">
-
-    </section>
+      <section className="subBgImg relative w-full h-60 sm:h-75 md:h-95 lg:h-115 mt-10 md:mt-20 overflow-hidden">
+        <img
+          src={bgImg}
+          alt="Background"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/55"></div>
+        <div className="absolute inset-0 flex items-center justify-center px-4 sm:px-6">
+          <h3 className="text-center font-bold text-2xl sm:text-3xl md:text-5xl leading-tight text-amber-400">
+            Achieve Amazing results <br /> with our Services
+          </h3>
+        </div>
+      </section>
     </div>
   );
 };
