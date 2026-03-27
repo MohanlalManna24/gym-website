@@ -11,6 +11,7 @@ import { LuMoveUpRight } from "react-icons/lu";
 import { MdOutlineCallMissedOutgoing } from "react-icons/md";
 import "../App.css";
 import ProgramAndTraining from "../component/ProgramAndTraining";
+import Status from "../component/Status";
 
 const Home = () => {
   return (
@@ -100,6 +101,7 @@ const Home = () => {
       {/*=========== Program & Training ======================= */}
       <ProgramAndTraining />
 
+      {/*=========== Achieve Amazing results section ======================= */}
       <section className="subBgImg relative w-full h-60 sm:h-75 md:h-95 lg:h-115 mt-10 md:mt-20 overflow-hidden">
         <img
           src={bgImg}
@@ -112,6 +114,10 @@ const Home = () => {
             Achieve Amazing results <br /> with our Services
           </h3>
         </div>
+      </section>
+
+      <section>
+        <Status />
       </section>
     </div>
   );
