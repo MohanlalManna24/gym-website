@@ -12,6 +12,7 @@ import { MdOutlineCallMissedOutgoing } from "react-icons/md";
 import "../App.css";
 import ProgramAndTraining from "../component/ProgramAndTraining";
 import Status from "../component/Status";
+import Trainer from "../component/Trainer";
 
 const Home = () => {
   return (
@@ -116,9 +117,12 @@ const Home = () => {
         </div>
       </section>
 
-      <section>
+      {/*============= Status Section ================= */}
         <Status />
-      </section>
+
+      {/*============= Trainer Section ================= */}
+      <Trainer/>
+      
     </div>
   );
 };
