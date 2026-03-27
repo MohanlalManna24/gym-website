@@ -80,6 +80,9 @@ const Home = () => {
     {/*=========== Program & Training ======================= */}
     <ProgramAndTraining/>
 
+    <section className="bg-gray-300 w-full h-100 mt-20">
+
+    </section>
     </div>
   );
 };
