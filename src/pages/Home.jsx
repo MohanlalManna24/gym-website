@@ -15,6 +15,7 @@ import Status from "../component/Status";
 import Trainer from "../component/Trainer";
 import MembershipPlans from "../component/MembershipPlans";
 import Testimonial from "../component/Testimonial";
+import BMICalculator from "../component/BMICalculator";
 
 const Home = () => {
   return (
@@ -124,6 +125,9 @@ const Home = () => {
 
       {/*============= Trainer Section ================= */}
       <Trainer />
+
+      {/*============= BMI Calculator Section ================= */}
+      <BMICalculator />
 
       {/*============= Membership Plans Section ================= */}
       <MembershipPlans />
