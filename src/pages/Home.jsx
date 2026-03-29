@@ -14,6 +14,7 @@ import ProgramAndTraining from "../component/ProgramAndTraining";
 import Status from "../component/Status";
 import Trainer from "../component/Trainer";
 import MembershipPlans from "../component/MembershipPlans";
+import Testimonial from "../component/Testimonial";
 
 const Home = () => {
   return (
@@ -119,13 +120,16 @@ const Home = () => {
       </section>
 
       {/*============= Status Section ================= */}
-        <Status />
+      <Status />
 
       {/*============= Trainer Section ================= */}
-      <Trainer/>
+      <Trainer />
 
       {/*============= Membership Plans Section ================= */}
-      <MembershipPlans/>
+      <MembershipPlans />
+
+      {/*============= Testimonials Section ================= */}
+      <Testimonial />
     </div>
   );
 };
