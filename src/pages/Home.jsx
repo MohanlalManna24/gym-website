@@ -13,6 +13,7 @@ import "../App.css";
 import ProgramAndTraining from "../component/ProgramAndTraining";
 import Status from "../component/Status";
 import Trainer from "../component/Trainer";
+import MembershipPlans from "../component/MembershipPlans";
 
 const Home = () => {
   return (
@@ -122,7 +123,9 @@ const Home = () => {
 
       {/*============= Trainer Section ================= */}
       <Trainer/>
-      
+
+      {/*============= Membership Plans Section ================= */}
+      <MembershipPlans/>
     </div>
   );
 };
