@@ -77,7 +77,7 @@ const ProgramAndTraining = () => {
             {trainingPrograms.map((item) => (
                 <div key={item.id} className="training-card group relative h-96 rounded-3xl overflow-hidden cursor-pointer">
                     {/* Default State - Light Background */}
-                    <div className="absolute inset-0 bg-gray-200 p-8 sm:p-10 flex flex-col justify-between group-hover:opacity-0 transition-opacity duration-300">
+                    <div className="absolute inset-0 bg-linear-to-r from-blue-100 via-white/90 to-purple-200 p-8 sm:p-10 flex flex-col justify-between group-hover:opacity-0 transition-opacity duration-300">
                         <div className="flex flex-col gap-4">
                             <div className="bg-lime-400 rounded-full w-14 h-14 flex items-center justify-center text-black">
                                 {item.icon }
