@@ -66,11 +66,11 @@ const ProgramAndTraining = () => {
   return (
     <div className="mt-20 ">
       <Layout className="flex justify-center">
-        <span className="program bg-gray-300 text-black p-2 px-5 rounded-full text-center block w-fit mx-auto">
+        <span className="program bg-linear-to-r from-blue-500 via-purple-500 to-purple-600 text-transparent bg-clip-text p-2 px-5 rounded-full text-center block w-fit mx-auto border border-purple-300">
           Our Program & Training
         </span>
-        <h2 className="text-center font-bold text-4xl pt-7">
-          Professional Training Program <br /> for stronger health
+        <h2 className="text-center font-bold text-4xl pt-7 bg-linear-to-r from-lime-500 via-lime-100 to-sky-500 bg-clip-text text-transparent">
+          Professional Training Program <br /><span className="text-white"> for stronger health</span>
         </h2>
 
         <section className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 justify-center items-center">

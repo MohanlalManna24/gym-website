@@ -41,7 +41,7 @@ const Home = () => {
             </div>
           </section>
           <section className="rightContainer w-full lg:w-1/2">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-2 lg:mt-10 leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mt-2 lg:mt-10 leading-tight bg-linear-to-r from-blue-500 via-white to-purple-500 text-transparent bg-clip-text">
               A supportive fitness built for every Body
             </h2>
             <p className="pt-4 sm:pt-5 text-base sm:text-lg leading-relaxed">

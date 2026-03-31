@@ -48,12 +48,12 @@ const Trainer = () => {
 
   return (
     <div className="w-full">
-      <span className="bg-gray-300 text-black p-2 px-5 rounded-full text-center block w-fit mx-auto mt-15">
+      <span className="bg-linear-to-r from-blue-500 via-purple-500 to-purple-600 text-transparent bg-clip-text p-2 px-5 rounded-full text-center block w-fit mx-auto mt-15 border border-purple-300">
         {" "}
         Trainers
       </span>
       <h3 className="text-center mt-5 font-bold text-4xl">
-        Meet our certified fitness <br /> Experts and Trainers
+        Meet our certified fitness <br /> <span className="bg-linear-to-r from-blue-500 via-yellow-200 to-purple-600 text-transparent bg-clip-text">Experts and Trainers</span>
       </h3>
       <div className="flex flex-wrap justify-center gap-8 mt-10">
         {trainers.map((trainer) => (
