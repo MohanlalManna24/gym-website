@@ -3,6 +3,7 @@ import "../App.css";
 import Layout from "../Layout/Layout";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa6";
+import SecondaryBtn from "./button/SecendaryBtn";
 
 
 const HeroSection = () => {
@@ -12,8 +13,8 @@ const HeroSection = () => {
       <Layout >
         <h1 className="text-xl -mt-30 md:text-6xl text-center font-bold">
           Transform Your Body, Build Your <br />{" "}
-          <span className="text-lime-400">Strength</span> with{" "}
-          <span className="text-yellow-500">Confidence</span>
+          <span className="bg-linear-to-r from-lime-400 to-yellow-200 bg-clip-text text-transparent">Strength</span> with{" "}
+          <span className="bg-linear-to-r from-green-400 to-yellow-200 bg-clip-text text-transparent">Confidence</span>
         </h1>
         <h2 className="subHeading text-xl md:text-5xl font-bold text-center py-5 md:py-10">
         “ No Excuses, Just Results ”
@@ -26,7 +27,7 @@ const HeroSection = () => {
         </p>
         <section className="btn flex justify-center mt-10 gap-20">
           <button className="bg-orange-500">Join Now <IoIosArrowDroprightCircle className="inline"/></button>
-          <button>View Plans <FaLocationArrow className="inline"/></button>
+          <SecondaryBtn text="View Plans" icon={<FaLocationArrow className="inline ml-2" />} />
         </section>
       </Layout>
     </div>

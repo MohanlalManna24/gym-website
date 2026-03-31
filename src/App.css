@@ -54,6 +54,7 @@
 }
 
 .heroSection p {
+  font-family: 'Courier New', Courier, monospace;
   animation: fadeIn 0.8s ease-out 0.4s both;
   font-weight: 500;
   line-height: 1.6;
@@ -92,13 +93,6 @@ button {
   text-transform: uppercase;
   letter-spacing: 1px;
   transition: all 0.3s ease;
-}
-
-button:hover {
-  background: linear-gradient(135deg, #c58122 0%, #e45204 100%);
-  border-color: #311302;
-  box-shadow: 0 10px 30px rgba(34, 197, 94, 0.4);
-  transform: translateY(-2px);
 }
 
 /* Training Card Hover Effect */
