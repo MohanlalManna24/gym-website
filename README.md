@@ -1,16 +1,81 @@
-# React + Vite
+# Gym Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, multi-page gym and fitness website built with React and Vite. The project is designed to present gym services, trainers, membership plans, and contact information in a clean, responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Responsive layout for mobile, tablet, and desktop
+- Dedicated pages for Home, About, Services, Pricing, Gallery, and Contact
+- Reusable UI components for sections like hero, trainer cards, testimonials, and plans
+- BMI calculator section for basic fitness engagement
+- Client-side routing with React Router
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Vite 8
+- React Router DOM 7
+- Tailwind CSS 4
+- React Icons
+- ESLint
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+src/
+	component/
+		button/
+	layout/
+	pages/
+	assets/
+	App.jsx
+	App.css
+	main.jsx
+```
+
+## Routes
+
+- /
+- /about
+- /services
+- /pricing
+- /gallery
+- /contact
+
+## Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+```
+
+### 2. Start development server
+
+```bash
+npm run dev
+```
+
+### 3. Build for production
+
+```bash
+npm run build
+```
+
+### 4. Preview production build
+
+```bash
+npm run preview
+```
+
+## Available Scripts
+
+- npm run dev: Start Vite development server
+- npm run build: Create production build
+- npm run preview: Preview production build locally
+- npm run lint: Run ESLint checks
+
+## Notes
+
+- The app uses Browser Router, so direct route refreshes require proper server fallback configuration in production.
+- Static assets are stored in the `public` and `src/assets` directories.
