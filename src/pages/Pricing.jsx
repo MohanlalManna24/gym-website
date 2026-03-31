@@ -1,9 +1,14 @@
 import React from 'react'
+import PageHeader from '../component/PageHeader'
+import MembershipPlans from '../component/MembershipPlans'
+import Testimonial from '../component/Testimonial'
 
 const Pricing = () => {
   return (
     <div>
-      <p>Pricing Page</p>
+      <PageHeader title="Pricing" subTitle="Home/Pricing" />
+      <MembershipPlans/>
+      <Testimonial/>
     </div>
   )
 }

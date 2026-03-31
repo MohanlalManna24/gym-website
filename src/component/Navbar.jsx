@@ -42,7 +42,7 @@ const Navbar = () => {
               aria-expanded={isOpen}
               aria-controls="mobile-nav"
               onClick={() => setIsOpen((prev) => !prev)}
-              className="text-2xl !border-0 !p-0 !rounded-none"
+              className="text-2xl border-0! p-0! rounded-none!"
             >
               {isOpen ? <FaTimes /> : <FaBars />}
             </button>

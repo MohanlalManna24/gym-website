@@ -1,9 +1,10 @@
 import React from 'react'
+import PageHeader from '../component/PageHeader'
 
 const Gallery = () => {
   return (
     <div>
-      <p>Gallery Page</p>
+      <PageHeader title="Gallery" subTitle="Home/Gallery" />
     </div>
   )
 }

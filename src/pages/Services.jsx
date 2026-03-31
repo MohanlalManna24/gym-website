@@ -1,9 +1,16 @@
 import React from 'react'
+import PageHeader from '../component/PageHeader'
+import ProgramAndTraining from '../component/ProgramAndTraining'
+import Status from '../component/Status'
+import BMICalculator from '../component/BMICalculator'
 
 const Services = () => {
   return (
     <div>
-      <p>Services Page</p>
+      <PageHeader title="Our Services" subTitle="Home/Services" />
+      <ProgramAndTraining/>
+      <Status/>
+      <BMICalculator/>
     </div>
   )
 }
