@@ -76,7 +76,7 @@ const BMICalculator = () => {
             BMI Calculator
           </div>
         </div>
-        <div className="container flex justify-center gap-15 mt-10">
+        <div className="container flex-row md:flex justify-center gap-15 mt-10">
           <div className="leftContainer">
             {/* BMI Chart Section */}
             <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl border border-gray-700 p-6 shadow-2xl hover:shadow-amber-500/5 transition-all duration-300">
