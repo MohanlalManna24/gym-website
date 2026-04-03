@@ -198,7 +198,7 @@ const Contact = () => {
         className="contactBgImg relative mt-10 flex min-h-80 w-full items-center justify-center overflow-hidden rounded-3xl bg-cover bg-center px-4 py-16 text-center sm:px-6 lg:px-8"
       >
         <div className="absolute inset-0 bg-linear-to-b from-slate-950/50 via-slate-950/50 to-slate-950/90" />
-        <div className="relative z-10 mx-auto max-w-4xl">
+        <div className="relative mx-auto max-w-4xl">
           <h3 className="mt-5 text-3xl font-extrabold leading-tight bg-clip-text text-transparent bg-linear-to-r from-blue-500 via-yellow-200 to-orange-400 sm:text-4xl lg:text-6xl">
             "Success starts with self-discipline"
           </h3>
