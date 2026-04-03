@@ -44,44 +44,44 @@ const AskQns = () => {
 
   return (
     <Layout>
-      <div className="container flex justify-between gap-20">
-        <div className="w-200 h-150 bg-amber-50 rounded-2xl">
+      <div className="container flex flex-col gap-10 py-10 lg:flex-row lg:items-center lg:gap-20">
+        <div className="w-full overflow-hidden rounded-2xl bg-amber-50 lg:w-1/2">
           <img
             src={img3}
             alt="Ask Questions"
-            className="overflow-hidden w-full h-full object-cover"
+            className="h-72 w-full object-cover sm:h-96 lg:h-[620px]"
           />
         </div>
-        <div className="">
-          <span className=" border border-amber-200 rounded-full px-3 py-1 text-amber-100 bg-linear-to-r from-amber-400/20 to-amber-50/20">
+        <div className="w-full lg:w-1/2">
+          <span className="inline-flex rounded-full border border-amber-200 px-3 py-1 text-amber-100 bg-linear-to-r from-amber-400/20 to-amber-50/20 text-xs sm:text-sm">
             Frequently Asked Questions
           </span>
           <h2></h2>
-          <h2 className="text-5xl font-bold mt-5">
+          <h2 className="mt-5 text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl">
             Common questions about gym, and training
           </h2>
           <div className="mt-5 space-y-4 select-none">
             {questions.map((q) => (
               <article key={q.id} className="group">
                 <div
-                  className="flex items-center justify-between border-b border-amber-50 py-5 cursor-pointer group transition-all duration-300"
+                  className="flex items-start justify-between gap-4 border-b border-amber-50 py-4 sm:py-5 cursor-pointer group transition-all duration-300"
                   onClick={() => {
                     handelClick(q.id);
                   }}
                 >
-                  <h3 className="text-lg font-semibold text-white group-hover:text-amber-200">
+                  <h3 className="text-base font-semibold text-white group-hover:text-amber-200 sm:text-lg">
                     {q.question}
                   </h3>
                   <div className="icon">
                     {activeId === q.id ? (
-                      <FaCircleArrowUp className="text-2xl text-amber-300/80 group-hover:text-amber-400 " />
+                      <FaCircleArrowUp className="text-xl text-amber-300/80 group-hover:text-amber-400 sm:text-2xl" />
                     ) : (
-                      <FaCircleArrowDown className="text-2xl text-amber-300/80 group-hover:text-amber-400 " />
+                      <FaCircleArrowDown className="text-xl text-amber-300/80 group-hover:text-amber-400 sm:text-2xl" />
                     )}
                   </div>
                 </div>
                 {activeId === q.id && (
-                  <p className="mt-3 text-sm leading-6 text-slate-300">
+                  <p className="mt-3 text-sm leading-6 text-slate-300 sm:text-base">
                     {q.answer}
                   </p>
                 )}
