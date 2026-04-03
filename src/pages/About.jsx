@@ -3,6 +3,7 @@ import PageHeader from '../component/PageHeader'
 import Trainer from '../component/Trainer'
 import Testimonial from '../component/Testimonial'
 import AboutUs from '../component/AboutUs'
+import AskQns from '../component/AskQns'
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <AboutUs/>
       <Trainer/>
       <Testimonial/>
+      <AskQns/>
     </div>
   )
 }
