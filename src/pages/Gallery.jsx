@@ -1,7 +1,8 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import PageHeader from "../component/PageHeader";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 
+const Gallery = () => {
   return (
     <div>
       <PageHeader title="Gallery" subTitle="Home/Gallery" />
@@ -28,6 +29,6 @@ import Layout from "../Layout/Layout";
         </section>
      </Layout>
     </div>
-  );
+  );}
 
 export default Gallery;

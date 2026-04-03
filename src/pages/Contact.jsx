@@ -1,6 +1,6 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import img from "../assets/images/getINTouch.jpeg";
 import bgImg from "../assets/images/bgImg.png";
 import { ImMobile } from "react-icons/im";
