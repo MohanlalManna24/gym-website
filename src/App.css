@@ -114,3 +114,11 @@ button {
 .group {
   position: relative;
 }
+
+/* Contact page Background Image */
+.contactBgImg{
+   background-image: url(./assets/images/bgImg.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}

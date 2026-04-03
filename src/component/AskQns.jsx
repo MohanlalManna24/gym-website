@@ -49,7 +49,7 @@ const AskQns = () => {
           <img
             src={img3}
             alt="Ask Questions"
-            className="h-72 w-full object-cover sm:h-96 lg:h-[620px]"
+            className="h-72 w-full object-cover sm:h-96 lg:h-155"
           />
         </div>
         <div className="w-full lg:w-1/2">
