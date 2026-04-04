@@ -5,9 +5,11 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa6";
 import SecondaryBtn from "./button/SecendaryBtn";
 import PrimaryBtn from "./button/PrimaryBtn";
+import { useNavigate } from "react-router-dom";
 
 
 const HeroSection = () => {
+  const navigate = useNavigate();
   return (
     <div className="heroSection">
       <div className="blackBg"></div>
@@ -27,9 +29,8 @@ const HeroSection = () => {
           self—all in one place.
         </p>
         <section className="btn flex justify-center mt-10 gap-20">
-          {/* <button className="bg-orange-500">Join Now <IoIosArrowDroprightCircle className="inline"/></button> */}
-          <PrimaryBtn text="Join Now" icon={<IoIosArrowDroprightCircle className="inline" />} />
-          <SecondaryBtn text="View Plans" icon={<FaLocationArrow className="inline ml-2" />} />
+          <PrimaryBtn text="Join Now" icon={<IoIosArrowDroprightCircle className="inline" />} onClick={() => navigate('/contact')} />
+          <SecondaryBtn text="View Plans" icon={<FaLocationArrow className="inline ml-2" />} onClick={() => navigate('/pricing')} />
         </section>
       </Layout>
     </div>

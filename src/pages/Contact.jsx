@@ -6,6 +6,8 @@ import bgImg from "../assets/images/bgImg.png";
 import { ImMobile } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import PrimaryBtn from "../component/button/PrimaryBtn";
+import SecondaryBtn from "../component/button/SecendaryBtn";
 
 const Contact = () => {
   return (
@@ -171,13 +173,7 @@ const Contact = () => {
                     placeholder="Write your message"
                   ></textarea>
                 </div>
-
-                <button
-                  type="submit"
-                  className="w-full rounded-xl bg-linear-to-r from-amber-300 to-orange-400 px-5 py-3 text-sm font-bold uppercase tracking-[0.14em] text-slate-900 transition hover:brightness-105 sm:w-auto"
-                >
-                  Send Message
-                </button>
+                <SecondaryBtn text="Send Message" className="w-full sm:w-auto" />
               </form>
             </article>
           </div>

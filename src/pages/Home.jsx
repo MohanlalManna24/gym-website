@@ -16,8 +16,11 @@ import Trainer from "../component/Trainer";
 import MembershipPlans from "../component/MembershipPlans";
 import Testimonial from "../component/Testimonial";
 import BMICalculator from "../component/BMICalculator";
+import SecondaryBtn from "../component/button/SecendaryBtn";
+import { useNavigate } from "react-router-dom";
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <div>
       {/*=========== Hero section ======================= */}
@@ -93,11 +96,12 @@ const Home = () => {
                 />
               </div>
             </div>
-            <div>
-              <button className="mt-5 flex gap-2 items-center">
-                Contact Us{" "}
-                <MdOutlineCallMissedOutgoing className="text-white" />{" "}
-              </button>
+            <div className="mt-5">
+              <SecondaryBtn
+                text="Contact Us"
+                icon={<MdOutlineCallMissedOutgoing className="inline" />}
+                onClick={() => navigate("/contact")}
+              />
             </div>
           </section>
         </section>
