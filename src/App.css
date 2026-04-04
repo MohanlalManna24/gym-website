@@ -12,7 +12,7 @@
 }
 
 .heroSection {
-  background-image: url(./assets/images/bg-image2.jpeg);
+  background-image: url(./assets/images/bgImg1.png);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -117,7 +117,7 @@ button {
 
 /* Contact page Background Image */
 .contactBgImg{
-   background-image: url(./assets/images/bgImg.png);
+   background-image: url(./assets/images/bgImg1.jpeg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

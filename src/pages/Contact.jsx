@@ -1,7 +1,6 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
 import img from "../assets/images/getINTouch.jpeg";
-import bgImg from "../assets/images/bgImg.png";
 import { ImMobile } from "react-icons/im";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
