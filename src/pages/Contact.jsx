@@ -1,6 +1,5 @@
 import React from "react";
 import PageHeader from "../component/PageHeader";
-import Layout from "../layout/Layout";
 import img from "../assets/images/getINTouch.jpeg";
 import bgImg from "../assets/images/bgImg.png";
 import { ImMobile } from "react-icons/im";
@@ -8,6 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import PrimaryBtn from "../component/button/PrimaryBtn";
 import SecondaryBtn from "../component/button/SecendaryBtn";
+import Layout from "../Layout/Layout";
 
 const Contact = () => {
   return (
@@ -42,10 +42,10 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-sm font-semibold uppercase tracking-wide text-white">
-                      Mobile No.
+                      Mobile No .
                     </h4>
                     <p className="mt-1 text-sm text-slate-300">
-                      +91 X X X X X X X X X X
+                      +91 99999 99999
                     </p>
                   </div>
                 </div>
@@ -59,7 +59,7 @@ const Contact = () => {
                       Email Address
                     </h4>
                     <p className="mt-1 text-sm text-slate-300">
-                      info@gympro.com
+                      hello@fitnation.com
                     </p>
                   </div>
                 </div>

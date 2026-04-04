@@ -10,7 +10,7 @@ const Trainer = () => {
   const trainers = [
     {
       id: 1,
-      name: "John Doe",
+      name: "Arjun Singh",
       specialization: "Strength & Conditioning",
       image: trainerImg1,
       socialMedia: {
@@ -22,7 +22,7 @@ const Trainer = () => {
     },
     {
       id: 2,
-      name: "Jane Smith",
+      name: "Priya Sharma",
       specialization: "Yoga & Flexibility",
       image: trainerImg2,
       socialMedia: {
@@ -34,7 +34,7 @@ const Trainer = () => {
     },
     {
       id: 3,
-      name: "Mike Johnson",
+      name: "Ravi Kumar",
       specialization: "Cardio & Endurance",
       image: trainerImg3,
       socialMedia: {

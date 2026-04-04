@@ -22,14 +22,14 @@ const Header = () => {
               FitNation
             </h1>
           </section>
-          <section className="flex items-center gap-2 text-black cursor-pointer">
-            <div className="flex items-center gap-2 border border-violet-600/50 rounded-full bg-sky-300/20 px-3 py-1">
+          <section className="hidden lg:flex items-center gap-2 text-black cursor-pointer">
+            <div className="flex items-center gap-2 border border-violet-600/50 rounded-full bg-sky-300/20 px-3 py-1 hover:bg-sky-300/40 transition-colors duration-300">
               <IoLocation className="text-orange-700 text-2xl" />
               <span>
                 123 Fitness Street, Health City
               </span>
             </div>
-            <div className="flex items-center gap-2 border border-violet-600/50 rounded-full bg-sky-300/20 py-1 px-5">
+            <div className="flex items-center gap-2 border border-violet-600/50 rounded-full bg-sky-300/20 py-1 px-5 hover:bg-sky-300/40 transition-colors duration-300">
               <IoMail className="text-blue-700 text-2xl" />
               <span>
                 fitnation@gmail.com

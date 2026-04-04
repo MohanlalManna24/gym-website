@@ -71,7 +71,7 @@ const Footer = () => {
           <ul className="mt-4 space-y-3 text-sm text-slate-300">
             <li className="flex items-start gap-2.5">
               <FaLocationDot className="mt-1 shrink-0 text-amber-300" />
-              <span>24 Fitness Avenue, New Delhi, India</span>
+              <span>24 Fitness Avenue, Kolkata, India</span>
             </li>
             <li className="flex items-center gap-2.5">
               <FaPhone className="shrink-0 text-amber-300" />

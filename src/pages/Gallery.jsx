@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import PageHeader from "../component/PageHeader";
-import Layout from "../layout/Layout";
+import Layout from "../Layout/Layout";
 
 const Gallery = () => {
   return (
@@ -26,6 +26,7 @@ const Gallery = () => {
               transformations. Hover on video cards to preview the action.
             </p>
           </header>
+          <p className="text-center text-lg text-slate-500">No Images Available</p>
         </section>
      </Layout>
     </div>
