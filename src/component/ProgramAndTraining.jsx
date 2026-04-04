@@ -1,11 +1,11 @@
 import React from "react";
 import Layout from "../Layout/Layout";
-import strengthImg from "../assets/strengthTrainingImage.jpeg"
-import groupClassImg from "../assets/groupClass.jpeg"
-import flexibilityImg from "../assets/FlexibilityTraining.jpeg"
-import nutritionImg from "../assets/nutrition.jpg"
-import cardioImg from "../assets/cardio.jpg"
-import personalImg from "../assets/download.jpeg"
+import strengthImg from "../assets/images/strengthTrainingImage.jpeg"
+import groupClassImg from "../assets/images/groupClass.jpeg"
+import flexibilityImg from "../assets/images/FlexibilityTraining.jpeg"
+import nutritionImg from "../assets/images/nutrition.jpg"
+import cardioImg from "../assets/images/cardio.jpg"
+import personalImg from "../assets/images/download.jpeg"
 import { MdModelTraining } from "react-icons/md";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { FaPersonRunning } from "react-icons/fa6";

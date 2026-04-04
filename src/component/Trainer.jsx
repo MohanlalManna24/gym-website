@@ -1,7 +1,7 @@
 import React from "react";
-import trainerImg1 from "../assets/trainer1.jpg";
-import trainerImg2 from "../assets/trainer2.jpg";
-import trainerImg3 from "../assets/trainer3.jpg";
+import trainerImg1 from "../assets/images/trainer1.jpg";
+import trainerImg2 from "../assets/images/trainer2.jpg";
+import trainerImg3 from "../assets/images/trainer3.jpg";
 import { VscDebugBreakpointLog } from "react-icons/vsc";
 import { CiFacebook, CiInstagram, CiTwitter } from "react-icons/ci";
 import { LiaPinterestP } from "react-icons/lia";

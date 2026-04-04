@@ -1,10 +1,10 @@
 import React from "react";
 import HeroSection from "../component/HeroSection";
 import Layout from "../Layout/Layout";
-import aboutUsImage1 from "../assets/image-3.jpeg";
-import aboutUsImage2 from "../assets/about-us-image-2.jpg";
-import bgImg from "../assets/bgImg.png";
-import winnerIcon from "../assets/medal.png";
+import aboutUsImage1 from "../assets/images/image-3.jpeg";
+import aboutUsImage2 from "../assets/images/about-us-image-2.jpg";
+import bgImg from "../assets/images/bgImage.png";
+import winnerIcon from "../assets/logo/medal.png";
 import { CgGym } from "react-icons/cg";
 import { MdOutlineWorkspacePremium } from "react-icons/md";
 import { LuMoveUpRight } from "react-icons/lu";
