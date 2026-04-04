@@ -6,7 +6,7 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     // Scroll to top when route changes
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 110)
   }, [pathname])
 
   return null
