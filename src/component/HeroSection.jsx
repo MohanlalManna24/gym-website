@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa6";
 import SecondaryBtn from "./button/SecendaryBtn";

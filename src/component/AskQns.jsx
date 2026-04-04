@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import img3 from "../assets/images/img-3.jpeg";
 import { FaCircleArrowDown } from "react-icons/fa6";
 import { FaCircleArrowUp } from "react-icons/fa6";

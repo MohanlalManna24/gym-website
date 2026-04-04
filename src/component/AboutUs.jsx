@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import img1 from "../assets/images/aboutImg-1.jpg";
 import img2 from "../assets/images/aboutImg-2.jpg";
 import { GiAchievement } from "react-icons/gi";

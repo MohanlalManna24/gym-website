@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 import PrimaryBtn from "../component/button/PrimaryBtn";
 import SecondaryBtn from "../component/button/SecendaryBtn";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 
 const Contact = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import { IoLocation, IoMail } from "react-icons/io5";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";

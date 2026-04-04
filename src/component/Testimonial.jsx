@@ -1,6 +1,6 @@
 import React from "react";
 import { FaQuoteLeft, FaStar } from "react-icons/fa";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 
 const Testimonial = () => {
   const testimonials = [

@@ -1,6 +1,6 @@
 import React from "react";
 import HeroSection from "../component/HeroSection";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import aboutUsImage1 from "../assets/images/image-3.jpeg";
 import aboutUsImage2 from "../assets/images/about-us-image-2.jpg";
 import bgImg from "../assets/images/bgImage.png";

@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../Layout/Layout";
+import Layout from "../layout/Layout";
 import strengthImg from "../assets/images/strengthTrainingImage.jpeg"
 import groupClassImg from "../assets/images/groupClass.jpeg"
 import flexibilityImg from "../assets/images/FlexibilityTraining.jpeg"
