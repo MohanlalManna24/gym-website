@@ -13,9 +13,9 @@ const PageHeader = ({ title = "Default Title", subTitle, image = bgImg }) => {
 
         <div className="relative z-10 mx-auto w-full max-w-5xl text-center">
 
-          <h2 className="mt-5 text-4xl font-black leading-tight tracking-tight text-white sm:text-5xl lg:text-7xl">
+          <span className="mt-5 text-4xl font-black leading-tight tracking-tight bg-linear-to-r from-blue-500 via-yellow-300 to-purple-500 text-transparent bg-clip-text  sm:text-5xl lg:text-7xl">
             {title}
-          </h2>
+          </span>
 
           <div className="mx-auto mt-5 h-1 w-24 rounded-full bg-linear-to-r from-cyan-300 via-amber-300 to-orange-400" />
 
