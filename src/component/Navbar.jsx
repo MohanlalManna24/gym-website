@@ -34,7 +34,7 @@ const Navbar = () => {
     <div className="navBar select-none sticky top-0 z-50 bg-black/95 backdrop-blur">
       <Layout>
         <nav className="text-white font-semibold">
-          <div className="flex items-center justify-between px-1 py-3 md:hidden">
+          <div className="flex items-center justify-between px-10 py-3 md:hidden">
             <h2 className="text-base font-bold tracking-wide">Menu</h2>
             <button
               type="button"
