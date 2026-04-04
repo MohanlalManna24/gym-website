@@ -4,6 +4,7 @@ import Layout from "../Layout/Layout";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa6";
 import SecondaryBtn from "./button/SecendaryBtn";
+import PrimaryBtn from "./button/PrimaryBtn";
 
 
 const HeroSection = () => {
@@ -26,7 +27,8 @@ const HeroSection = () => {
           self—all in one place.
         </p>
         <section className="btn flex justify-center mt-10 gap-20">
-          <button className="bg-orange-500">Join Now <IoIosArrowDroprightCircle className="inline"/></button>
+          {/* <button className="bg-orange-500">Join Now <IoIosArrowDroprightCircle className="inline"/></button> */}
+          <PrimaryBtn text="Join Now" icon={<IoIosArrowDroprightCircle className="inline" />} />
           <SecondaryBtn text="View Plans" icon={<FaLocationArrow className="inline ml-2" />} />
         </section>
       </Layout>
